@@ -11,18 +11,23 @@ import { inventory } from "./product.js"
 document.addEventListener("DOMContentLoaded", listProducts);
 
 const searchProduct = () => {
+
+    const row = inventory.getElemetByTagName("tr");
     const productSearched = document.getElementById("busqueda").value;
 
-    /*  */
    inventory.forEach(product => {
     
+    
     if(productSearched === product.nombre){
+        
         console.log("Producto encontrado: " + productSearched);
+        product.
         return;
     }
+    console.log("Producto no encontrado");
     
    });
-    console.log("Producto no encontrado");
+    
     
 };
 

@@ -10,14 +10,14 @@ const getRandomCuantity = () =>{
 //Array tipo objeto
 const inventory =[
 
-    { id: 1 ,nombre:"Bruja", cantidad: getRandomCuantity(), precio: 55.99},
-    { id: 2 ,nombre:"Payaso", cantidad: getRandomCuantity(), precio: 34.99},
-    { id: 3 ,nombre:"Hulk", cantidad: getRandomCuantity(), precio: 78.99},
-    { id: 4 ,nombre:"Skeleton", cantidad: getRandomCuantity(), precio: 12.99},
-    { id: 5 ,nombre:"Capitan America", cantidad: getRandomCuantity(), precio: 90.99},
-    { id: 6 ,nombre:"Megatron", cantidad: getRandomCuantity(), precio: 100.99},
-    { id: 7 ,nombre:"Pedro Sanchez", cantidad: getRandomCuantity(), precio: 1.99},
-    { id: 8 ,nombre:"Leticia Sabater", cantidad: getRandomCuantity(), precio: 0.99},
-    { id: 9 ,nombre:"LLados", cantidad: getRandomCuantity(), precio: 34.99},
+    { id: 1 ,nombre:"Lamzu Atlantis", cantidad: getRandomCuantity(), precio: 100.99},
+    { id: 2 ,nombre:"Razer Viper S.E", cantidad: getRandomCuantity(), precio: 320.99},
+    { id: 3 ,nombre:"Razer Orochi V2", cantidad: getRandomCuantity(), precio: 78.99},
+    { id: 4 ,nombre:"End Game XMR1", cantidad: getRandomCuantity(), precio: 70.99},
+    { id: 5 ,nombre:"Ninjutso Sora", cantidad: getRandomCuantity(), precio: 99.99},
+    { id: 6 ,nombre:"Logitech G PRO W", cantidad: getRandomCuantity(), precio: 95.99},
+    { id: 7 ,nombre:"Asus ROG AIM LAB Edition", cantidad: getRandomCuantity(), precio: 110.99},
+    { id: 8 ,nombre:"Lamzu Thorn", cantidad: getRandomCuantity(), precio: 120.99},
+    { id: 9 ,nombre:"Razer Viper V2", cantidad: getRandomCuantity(), precio: 105.99},
 
 ];
