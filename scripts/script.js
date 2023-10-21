@@ -13,15 +13,21 @@ document.addEventListener("DOMContentLoaded", listProducts);
 const searchProduct = () => {
     const productSearched = document.getElementById("busqueda").value;
 
-    array.forEach(element => {
-        
-    });
-
-
+    /*  */
+   inventory.forEach(product => {
+    
+    if(productSearched === product.nombre){
+        console.log("Producto encontrado: " + productSearched);
+        return;
+    }
+    
+   });
+    console.log("Producto no encontrado");
     
 };
 
-
+const searchButton = document.getElementById("busquedaBtn");
+searchButton.addEventListener("click", searchProduct);
 
 
 

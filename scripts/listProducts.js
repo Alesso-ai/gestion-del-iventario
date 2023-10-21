@@ -9,6 +9,7 @@ export const listProducts = () => {
 
         const row = table.insertRow();
         
+        
         const cell1 = row.insertCell(0);
         const cell2 = row.insertCell(1);
         const cell3 = row.insertCell(2);
@@ -19,11 +20,13 @@ export const listProducts = () => {
         cell1.innerText = item.nombre;
         cell2.innerText = item.cantidad;
         cell3.innerText = item.precio;
+        cell4.className=("action-buttons");
 
 
         //Logica para crear un boton dentro de un foreach para que salga en el html
         const deleteButton = document.createElement("button");
         deleteButton.innerText=("Eliminar");
+        deleteButton.className=("delete-btn");
         deleteButton.addEventListener("click", ()=>{
         });
 
