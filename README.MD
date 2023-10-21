@@ -1,3 +1,3 @@
-# Ejemplo de inventario de Diego
+# Proyecto de Gestión Inventario 
 **Autor**: Alejandro Ruiz Prieto
-**GitHub**: 
+**GitHub**: https://github.com/Alesso-ai/gestion-del-iventario.git
