@@ -47,4 +47,26 @@ input{
   gap: 5px;
 }
 
+.inventory-table-styles th,
+.inventory-table-styles td{
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  
+}
 
+.inventory-table-styles{
+  border-collapse: collapse;
+  
+}
+.inventory-table-styles tr:hover{
+  background-color: rgb(97, 192, 229);
+  color:white
+}
+
+.product-form-styles{
+  background-color: rgb(137, 135, 135);
+  color: white;
+  padding: 20px;
+  border: 1px solid #333;
+}
