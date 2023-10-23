@@ -24,6 +24,13 @@ export const listProducts = () => {
 
     cleanTable2.appendChild(row);
 
+    /*Logica para editar */
+    const editButton = document.createElement("button");
+    editButton.innerText = "Editar";
+    editButton.addEventListener("click", () => {});
+
+    cell4.appendChild(editButton);
+
     //Logica para crear un boton dentro de un foreach para que salga en el html
     const deleteButton = document.createElement("button");
     deleteButton.innerText = "Eliminar";
@@ -45,12 +52,5 @@ export const listProducts = () => {
     });
 
     cell4.appendChild(deleteButton);
-
-    /*Logica para editar */
-    const editButton = document.createElement("button");
-    editButton.innerText = "Editar";
-    editButton.addEventListener("click", () => {});
-
-    cell4.appendChild(editButton);
   });
 };
