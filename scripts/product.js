@@ -16,7 +16,7 @@ const inventory =[
     { id: 4 ,nombre:"End Game XMR1", cantidad: getRandomCuantity(), precio: 70.99},
     { id: 5 ,nombre:"Ninjutso Sora", cantidad: getRandomCuantity(), precio: 99.99},
     { id: 6 ,nombre:"Logitech G PRO W", cantidad: getRandomCuantity(), precio: 95.99},
-    { id: 7 ,nombre:"Asus ROG AIM LAB Edition", cantidad: getRandomCuantity(), precio: 110.99},
+    { id: 7 ,nombre:"Asus ROG HARPER AIM LAB Edition", cantidad: getRandomCuantity(), precio: 110.99},
     { id: 8 ,nombre:"Lamzu Thorn", cantidad: getRandomCuantity(), precio: 120.99},
     { id: 9 ,nombre:"Razer Viper V2", cantidad: getRandomCuantity(), precio: 105.99},
 
