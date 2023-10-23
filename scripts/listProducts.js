@@ -2,12 +2,13 @@ import { inventory } from "./product.js"
 
 export const listProducts = () => {
 
-    const table = document.getElementById("invetory-table-events")
+    //const table = document.getElementById("invetory-table-events");
+    const cleanTable2 = document.getElementById("clear-table");
 
     
     inventory.forEach(item => {
 
-        const row = table.insertRow();
+        const row = cleanTable2.insertRow();
         
         
         const cell1 = row.insertCell(0);
@@ -28,6 +29,7 @@ export const listProducts = () => {
         deleteButton.innerText=("Eliminar");
         deleteButton.className=("delete-btn");
         deleteButton.addEventListener("click", ()=>{
+            
         });
 
         cell4.appendChild(deleteButton);

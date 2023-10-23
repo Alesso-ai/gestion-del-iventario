@@ -14,7 +14,7 @@
         <form id="product-form-events" class="product-form-styles">
 
             <label for="product-name">Nombre: </label>
-            <input  type="text" placeholder="Producto" required>
+            <input id="product-name" type="text" placeholder="Producto" required>
 
             <label for="product-quantity">Cantidad:  </label>
             <input id="product-quantity" type="number" placeholder="1,2,3..." required>
@@ -22,7 +22,7 @@
             <label for="product-price">Precio:  </label>
             <input id="product-price" type="number" step="0.01" placeholder="€" required>
 
-            <button class="btnA" type="submit">Agregar Producto</button>
+            <button id="btnForm" class="btnA" type="submit">Agregar Producto</button>
 
         </form>
 
@@ -38,6 +38,7 @@
                     <th>Precio</th>
                     <th>Acciones</th>
             </tr>
+            <tbody id="clear-table"></tbody>
         </table>
         
     </div> 
