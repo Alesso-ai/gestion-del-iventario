@@ -33,7 +33,7 @@ export const insertProducts = () => {
             
             const cleanTable2 = document.getElementById("clear-table");
             //Limpiar la tabla antes de la nueva inserccion
-            cleanTable2.innerHtml = "";
+            cleanTable2.innerHTML = "";
 
             //Limpiar los campos del formulario
             productForm.reset();

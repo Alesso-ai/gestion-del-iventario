@@ -31,7 +31,7 @@ searchButton.addEventListener("click", searchProduct);
 //Accion para agregar boton
 
 document.addEventListener("DOMContentLoaded", () => {
-  const btnForm = document.getElementById("btnForm");
+  const btnForm = document.getElementById("product-form-events");
 
   btnForm.addEventListener("click", () => {
     insertProducts();
