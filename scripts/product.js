@@ -10,7 +10,7 @@ const getRandomCuantity = () =>{
 //Array tipo objeto
 const inventory =[
 
-    { id: 1 ,nombre:"Lamzu Atlantis", cantidad: getRandomCuantity(), precio: 100.99},
+    { id: 1 ,nombre:"Lamzu Atlantis", cantidad: getRandomCuantity(), precio: 100.99 },
     { id: 2 ,nombre:"Razer Viper S.E", cantidad: getRandomCuantity(), precio: 320.99},
     { id: 3 ,nombre:"Razer Orochi V2", cantidad: getRandomCuantity(), precio: 78.99},
     { id: 4 ,nombre:"End Game XMR1", cantidad: getRandomCuantity(), precio: 70.99},
